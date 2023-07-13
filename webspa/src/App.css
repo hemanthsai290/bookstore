@@ -1,0 +1,42 @@
+.sidebar{
+  width: 22rem;
+ 
+  box-shadow: 4px 4px 8px 2px #f5d3d0;
+
+  margin-left: 1rem;
+
+
+}
+
+.accordion-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign{
+  font-weight: 1000;
+  margin-right: 0.5rem;
+ 
+}
+
+
+
+
+.form-set{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  
+}
+input[type=text],input[type=number],input[type=email],input[type=password] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+
+  box-sizing: border-box;
+  margin-top: 3px;
+  /* margin-bottom: 16px; */
+  resize: vertical;
+}
+
